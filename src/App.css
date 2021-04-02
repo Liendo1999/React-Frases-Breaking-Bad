@@ -3,18 +3,16 @@
 }
 
 .App-logo {
+  margin-top: -10vh;
+  margin-bottom: 5vh;
   height: 40vmin;
   pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  filter: drop-shadow(0 0 70px #000000);
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: url("./Bacgrounds/fondo_mobile.jpg");
+  background-size: 150%;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,15 +22,26 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+button{
+  background-color: darkgreen;
+  border-style: none;
+  font-size: 1em;
+  padding: 1vh 2vw;
+  color: white;
+  border-radius: 5px;
+}
+button:hover{
+  background-color: #024002;
+  transition: all .4s;
+}
+button:active{
+  background-color: #019a01;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media only screen and (min-device-width: 780px ) {
+  .App-header{
+    background-image: url("./Bacgrounds/fondo2.jpg");
+    background-size: 100%;
   }
-  to {
-    transform: rotate(360deg);
-  }
+
 }
