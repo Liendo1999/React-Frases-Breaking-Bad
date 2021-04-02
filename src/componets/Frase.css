@@ -1,0 +1,18 @@
+#frase {
+  background-color: rgba(18, 73, 20, 0.7);
+  padding: 1vh 2vw;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  margin-bottom: 2vh;
+  border-radius: 15px;
+}
+#frase h2 {
+  font-size: 1em;
+}
+#frase p {
+  text-align: right;
+  color: #dcdcdc;
+  font-size: 0.8em;
+}
+
+/*# sourceMappingURL=Frase.css.map */
